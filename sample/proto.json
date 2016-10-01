@@ -1,0 +1,69 @@
+{
+  "@context": "http://iiif.io/api/text/context.json",
+  "@id": "http://e.blumenbach.org/fcrepo/rest/edition/doc/manifest",
+  "@type": "doc:Manifest",
+  "within": "http://e.blumenbach.org/fcrepo/rest/collection/blumenbach-editions",
+  "label": "RDF Document Model Test",
+  "description": "Prototype Manifest for Documents",
+  "sequences": [
+    {
+      "@id": "http://e.blumenbach.org/fcrepo/rest/edition/doc/sequence/normal",
+      "@type": "doc:Sequence",
+      "pages": [
+        {
+          "@id": "http://e.blumenbach.org/fcrepo/rest/edition/doc/page/page_1",
+          "on": "http://e.blumenbach.org/fcrepo/rest/edition/canvas/001",
+          "@type": "doc:Page",
+          "bbox": "0 0 2137 3293",
+          "areas": [
+            {
+              "@id": "_:b01",
+              "@type": "doc:Area",
+              "bbox": "115 718 156 2072",
+              "lines": [
+                {
+                  "@id": "http://e.blumenbach.org/fcrepo/rest/edition/doc/line/line_1_1",
+                  "@type": "doc:Line",
+                  "bbox": "115 718 156 2072",
+                  "baseline": "0 0",
+                  "x_size": "677",
+                  "x_descenders": "-338.5",
+                  "x_ascenders": "338.5",
+                  "service": {
+                    "@type": "http://iiif.io/api/image/2/context.json",
+                    "@id": "http://localhost:8888/iiif/807_001",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                },
+                {
+                  "rdf:rest": "..."
+                }
+              ],
+              "words": [
+                {
+                  "@id": "http://e.blumenbach.org/fcrepo/rest/edition/doc/word/word_1_1",
+                  "@type": "doc:Word",
+                  "bbox": "115 718 156 2072",
+                  "x_wconf": "95",
+                  "language": "deu_fra",
+                  "direction": "doc:left-to-right",
+                  "service": {
+                    "@type": "http://iiif.io/api/image/2/context.json",
+                    "@id": "http://localhost:8888/iiif/807_001",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                },
+                {
+                  "rdf:rest": "..."
+                }
+              ]
+            },
+            {
+              "rdf:rest": "..."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

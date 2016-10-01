@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   	xmlns:premis="http://www.loc.gov/premis/rdf/v1#"
+	xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:ns004="http://iiif.io/api/presentation/2#"
+	xmlns:ns003="http://www.w3.org/2003/12/exif/ns#"
+	xmlns:ns002="http://purl.org/dc/dcmitype/"
+	xmlns:ns001="http://rdfs.org/sioc/services#"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:mode="http://www.modeshape.org/1.0"
+	xmlns:ns006="http://purl.org/dc/terms/"
+	xmlns:ns005="http://www.w3.org/ns/oa#"
+	xmlns:xml="http://www.w3.org/XML/1998/namespace"
+	xmlns:jcr="http://www.jcp.org/jcr/1.0"
+	xmlns:fedoraconfig="http://fedora.info/definitions/v4/config#"
+	xmlns:mix="http://www.jcp.org/jcr/mix/1.0"
+	xmlns:foaf="http://xmlns.com/foaf/0.1/"
+	xmlns:image="http://www.modeshape.org/images/1.0"
+	xmlns:sv="http://www.jcp.org/jcr/sv/1.0"
+	xmlns:test="info:fedora/test/"
+	xmlns:fedora="http://fedora.info/definitions/v4/repository#"
+	xmlns:ebucore="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#"
+	xmlns:ldp="http://www.w3.org/ns/ldp#"
+	xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:hocr="http://www.purl.org/hocr#">
+   <rdf:Description xmlns:hocr="http://www.purl.org/hocr#"
+                    rdf:about="http://localhost:8080/fcrepo/rest/collection/test/004/doc/page_1">
+      <hocr:bbox>0 0 2137 3293</hocr:bbox>
+      <hocr:hasContentArea rdf:resource="http://localhost:8080/fcrepo/rest/collection/test/004/doc/block_1_1"/>
+      <hocr:hasContentArea rdf:resource="http://localhost:8080/fcrepo/rest/collection/test/004/doc/block_1_2"/>
+      <hocr:hasContentArea rdf:resource="http://localhost:8080/fcrepo/rest/collection/test/004/doc/block_1_3"/>
+      <hocr:hasContentArea rdf:resource="http://localhost:8080/fcrepo/rest/collection/test/004/doc/block_1_4"/>
+      <hocr:hasContentArea rdf:resource="http://localhost:8080/fcrepo/rest/collection/test/004/doc/block_1_5"/>
+      <hocr:hasContentArea rdf:resource="http://localhost:8080/fcrepo/rest/collection/test/004/doc/block_1_6"/>
+      <hocr:hasContentArea rdf:resource="http://localhost:8080/fcrepo/rest/collection/test/004/doc/block_1_7"/>
+      <hocr:hasContentArea rdf:resource="http://localhost:8080/fcrepo/rest/collection/test/004/doc/block_1_8"/>
+      <hocr:hasContentArea rdf:resource="http://localhost:8080/fcrepo/rest/collection/test/004/doc/block_1_9"/>
+      <hocr:hasContentArea rdf:resource="http://localhost:8080/fcrepo/rest/collection/test/004/doc/block_1_10"/>
+      <hocr:hasContentArea rdf:resource="http://localhost:8080/fcrepo/rest/collection/test/004/doc/block_1_11"/>
+      <hocr:hasContentArea rdf:resource="http://localhost:8080/fcrepo/rest/collection/test/004/doc/block_1_12"/>
+      <hocr:hasContentArea rdf:resource="http://localhost:8080/fcrepo/rest/collection/test/004/doc/block_1_13"/>
+      <hocr:hasContentArea rdf:resource="http://localhost:8080/fcrepo/rest/collection/test/004/doc/block_1_14"/>
+      <hocr:hasContentArea rdf:resource="http://localhost:8080/fcrepo/rest/collection/test/004/doc/block_1_15"/>
+   </rdf:Description>
+</rdf:RDF>
